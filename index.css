@@ -1,0 +1,136 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  padding: 38px 162px;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.line {
+  width: 100%;
+  background-color: #dbdbdb;
+  height: 1px;
+}
+
+.container {
+  padding: 77px 162px;
+  max-width: 100%;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.filter-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 6px;
+}
+.select-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn {
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.add-listing-btn {
+  background-color: #f93b1d;
+  color: #ffffff;
+}
+.add-agent-btn {
+  color: #f93b1d;
+  border: 1px solid #f93b1d;
+}
+
+.filters {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.filter-remove-btn {
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 43px;
+  border: 1px solid #dbdbdb;
+}
+
+.plats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.plat {
+  border: 1px solid #dbdbdb;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-image: url(./assets//image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 455px;
+  min-width: 384px;
+}
+
+.condition {
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgba(2, 21, 38, 0.5);
+  padding: 6px 10px;
+  width: fit-content;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: auto;
+}
+
+.address,
+.property {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.properties {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 20px;
+}
+.property {
+  color: rgba(2, 21, 38, 0.7);
+}
