@@ -13,3 +13,7 @@ modal.addEventListener("click", (event) => {
     openCloseModal();
   }
 });
+
+const addAgent = (event, form) => {
+  event.preventDefault();
+};
