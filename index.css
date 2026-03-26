@@ -134,3 +134,85 @@ button {
 .property {
   color: rgba(2, 21, 38, 0.7);
 }
+
+.modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 21, 38, 0.34);
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.agent-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 87px 105px;
+}
+.agent-form h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.agent-form label,
+.agent-form h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.agent-form h3 {
+  margin-top: 28px;
+}
+.person-infos {
+  display: flex;
+  gap: 31px;
+  margin-top: 61px;
+}
+.name-box,
+.surname-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#name,
+#surname,
+#email,
+#tel {
+  padding: 14px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 138, 147, 1);
+  margin-top: 5px;
+  min-width: 350px;
+}
+
+#name-box span,
+#surname span {
+  margin-top: 4px;
+}
+
+.contact-info {
+  margin-top: 28px;
+}
+
+.image-box {
+  width: 100%;
+  padding: 45px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px dashed rgba(45, 54, 72, 1);
+  cursor: pointer;
+}
+
+.controls {
+  margin-top: 94px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.modal.active {
+  display: flex;
+}
