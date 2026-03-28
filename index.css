@@ -216,3 +216,31 @@ button {
 .modal.active {
   display: flex;
 }
+
+span.error {
+  color: rgba(249, 59, 29, 1);
+}
+.avatar-box {
+  position: relative;
+  display: none;
+}
+.avatar-preview {
+  width: 92px;
+  height: 82px;
+  border-radius: 4px;
+}
+
+.icon-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  border: 1px solid rgba(2, 21, 38, 1);
+  background-color: #ffffff;
+  z-index: 3;
+}
